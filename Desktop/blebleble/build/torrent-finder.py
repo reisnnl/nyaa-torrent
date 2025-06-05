@@ -99,7 +99,7 @@ canvas.create_rectangle(
     outline="")
 
 canvas.create_rectangle(
-    183.0,  # 183.0 - 1
+    183.0,
     118.0,
     194.0,
     119.0,
