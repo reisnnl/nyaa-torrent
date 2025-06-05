@@ -25,7 +25,7 @@ Aplicativo desktop em Python (Tkinter) para buscar torrents no Nyaa.si, com inte
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+    git clone https://github.com/reisnnl/nyaa-torrent.git
     ```
 2. Instale as dependências (se necessário):
     ```bash
