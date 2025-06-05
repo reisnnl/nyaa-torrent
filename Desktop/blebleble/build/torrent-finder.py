@@ -115,7 +115,7 @@ canvas.create_rectangle(
     outline="")
 
 canvas.create_rectangle(
-    446.0,  # 447.0 - 1
+    446.0,
     118.0,
     457.0,
     119.0,
@@ -250,7 +250,7 @@ def search_nyaa(query):
                 title = title_match.group(1)
                 magnet = magnet_match.group(1)
                 results.append((title, magnet))
-                if len(results) >= 12:  # Limite de 12 resultados válidos
+                if len(results) >= 12:
                     break
         return results
     except Exception as e:
@@ -260,7 +260,7 @@ def search_nyaa(query):
 def show_results_on_canvas(results):
     canvas.delete("torrent_result")
     y = 345
-    max_chars = 60  # ajuste conforme a largura da sua lista
+    max_chars = 60
     for title, magnet in results:
         display_title = (title[:max_chars - 3] + "...") if len(title) > max_chars else title
         text_id = canvas.create_text(
